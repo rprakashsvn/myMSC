@@ -28,5 +28,6 @@ public class GRID {
 
 		driver.get("https://test.mymsc.com/myMSC/");
 		driver.manage().window().maximize();
+		System.out.println("Browser Launched Successfully");
 	}
 }
