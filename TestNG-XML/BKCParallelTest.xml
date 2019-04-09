@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="2" parallel="tests">
+
+	<test name="ChromeTest">
+		<parameter name="BrowserName" value="Chrome" />
+		<classes>
+			<class name="Documents.BookingConfirmation" />
+		</classes>
+	</test>
+
+	<test name="FirefoxTest">
+		<parameter name="BrowserName" value="Firefox" />
+		<classes>
+			<class name="Documents.BookingConfirmation" />
+		</classes>
+	</test>
+</suite> 

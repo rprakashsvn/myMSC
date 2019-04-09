@@ -1,0 +1,6 @@
+2019-04-04 14:41:10,277 [main] INFO Documents.BookingConfirmation - Module & Screen is Navigated
+2019-04-04 14:41:10,966 [main] INFO Documents.BookingConfirmation - Booking Number is Entered
+2019-04-04 14:41:49,313 [main] INFO Documents.BookingConfirmation - Booking is retrieved
+2019-04-04 14:41:50,389 [main] INFO Documents.BookingConfirmation - Booking Pdf file is downloaded
+2019-04-04 14:44:29,370 [main] INFO Documents.BookingConfirmation - Pdf File is verifed Test Case Passed
+2019-04-04 14:44:31,054 [Finalizer] WARN org.apache.pdfbox.cos.COSDocument - Warning: You did not close a PDF Document

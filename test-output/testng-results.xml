@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="356044" started-at="2019-04-04T09:09:49Z" finished-at="2019-04-04T09:15:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="356044" started-at="2019-04-04T09:09:49Z" finished-at="2019-04-04T09:15:45Z">
+      <class name="Documents.BookingConfirmation">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:Documents.BookingConfirmation@92efc3]" name="launchBrowser" is-config="true" duration-ms="97278" started-at="2019-04-04T14:38:12Z" finished-at="2019-04-04T14:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginApplication()[pri:0, instance:Documents.BookingConfirmation@92efc3]" name="loginApplication" is-config="true" duration-ms="2461" started-at="2019-04-04T14:39:49Z" finished-at="2019-04-04T14:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="GenerateExtentReports()[pri:0, instance:Documents.BookingConfirmation@92efc3]" name="GenerateExtentReports" is-config="true" duration-ms="2846" started-at="2019-04-04T14:39:52Z" finished-at="2019-04-04T14:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateExtentReports -->
+        <test-method status="PASS" signature="BookingConfirmReport()[pri:0, instance:Documents.BookingConfirmation@92efc3]" name="BookingConfirmReport" duration-ms="331570" started-at="2019-04-04T14:39:55Z" finished-at="2019-04-04T14:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookingConfirmReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Documents.BookingConfirmation@92efc3]" name="getResult" is-config="true" duration-ms="411" started-at="2019-04-04T14:45:27Z" finished-at="2019-04-04T14:45:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BookingConfirmReport status=SUCCESS method=BookingConfirmation.BookingConfirmReport()[pri:0, instance:Documents.BookingConfirmation@92efc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:Documents.BookingConfirmation@92efc3]" name="endReport" is-config="true" duration-ms="18203" started-at="2019-04-04T14:45:27Z" finished-at="2019-04-04T14:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Documents.BookingConfirmation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
