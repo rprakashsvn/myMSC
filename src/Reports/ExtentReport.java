@@ -19,8 +19,8 @@ import Utilities.Helper;
 public class ExtentReport {
 
 	public static ExtentTest child;
-	public static ExtentReports extent = new ExtentReports();
 	public static ExtentHtmlReporter htmlReporter;
+	public static ExtentReports extent = new ExtentReports();	
 	public static ExtentTest test;
 
 	@AfterTest
@@ -31,10 +31,11 @@ public class ExtentReport {
 
 	@BeforeClass
 	public void GenerateExtentReports() {
+	
 		System.out.println("Extent Report started to generate.");
-
 		String TestCaseClassName = getClassName();
 		System.out.println("Test Class Name Is : " + TestCaseClassName);
+		
 		htmlReporter = new ExtentHtmlReporter("./Reports\\" + TestCaseClassName + ".html");
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("HostName", "Home");

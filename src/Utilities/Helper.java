@@ -24,7 +24,7 @@ import java.util.Set;
 import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang.RandomStringUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
 import org.apache.pdfbox.text.PDFTextStripper;
@@ -104,7 +104,7 @@ public class Helper extends ExtentReport {
 	}
 
 	public static String getDataTime() {
-		String timestamp = new SimpleDateFormat("yyyy_MM_dd_hh_mm_ss").format(new Date());
+		String timestamp = new SimpleDateFormat("MM_dd_yyyy_hh_mm_ss").format(new Date());
 		System.out.println(timestamp);
 		return timestamp;
 	}
